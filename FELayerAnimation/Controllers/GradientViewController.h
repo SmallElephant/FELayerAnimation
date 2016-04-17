@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GradientViewController.h
 //  FELayerAnimation
 //
 //  Created by keso on 16/4/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface GradientViewController : UIViewController
 
 @end
-

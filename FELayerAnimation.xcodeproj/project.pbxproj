@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		C5E85A031CC3818A00FC335F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A021CC3818A00FC335F /* main.m */; };
 		C5E85A061CC3818A00FC335F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A051CC3818A00FC335F /* AppDelegate.m */; };
-		C5E85A091CC3818A00FC335F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A081CC3818A00FC335F /* ViewController.m */; };
+		C5E85A091CC3818A00FC335F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A081CC3818A00FC335F /* MainViewController.m */; };
 		C5E85A0C1CC3818A00FC335F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E85A0A1CC3818A00FC335F /* Main.storyboard */; };
 		C5E85A0F1CC3818A00FC335F /* FELayerAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A0D1CC3818A00FC335F /* FELayerAnimation.xcdatamodeld */; };
 		C5E85A111CC3818A00FC335F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E85A101CC3818A00FC335F /* Assets.xcassets */; };
 		C5E85A141CC3818A00FC335F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E85A121CC3818A00FC335F /* LaunchScreen.storyboard */; };
 		C5E85A1F1CC3818B00FC335F /* FELayerAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A1E1CC3818B00FC335F /* FELayerAnimationTests.m */; };
 		C5E85A2A1CC3818B00FC335F /* FELayerAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A291CC3818B00FC335F /* FELayerAnimationUITests.m */; };
+		C5E85A3A1CC3985800FC335F /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A391CC3985800FC335F /* GradientViewController.m */; };
+		C5E85A3B1CC3985800FC335F /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A391CC3985800FC335F /* GradientViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +42,8 @@
 		C5E85A021CC3818A00FC335F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5E85A041CC3818A00FC335F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5E85A051CC3818A00FC335F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C5E85A071CC3818A00FC335F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C5E85A081CC3818A00FC335F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5E85A071CC3818A00FC335F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C5E85A081CC3818A00FC335F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		C5E85A0B1CC3818A00FC335F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5E85A0E1CC3818A00FC335F /* FELayerAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FELayerAnimation.xcdatamodel; sourceTree = "<group>"; };
 		C5E85A101CC3818A00FC335F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +55,8 @@
 		C5E85A251CC3818B00FC335F /* FELayerAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FELayerAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E85A291CC3818B00FC335F /* FELayerAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FELayerAnimationUITests.m; sourceTree = "<group>"; };
 		C5E85A2B1CC3818B00FC335F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E85A381CC3985800FC335F /* GradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
+		C5E85A391CC3985800FC335F /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +109,9 @@
 			children = (
 				C5E85A041CC3818A00FC335F /* AppDelegate.h */,
 				C5E85A051CC3818A00FC335F /* AppDelegate.m */,
-				C5E85A071CC3818A00FC335F /* ViewController.h */,
-				C5E85A081CC3818A00FC335F /* ViewController.m */,
+				C5E85A071CC3818A00FC335F /* MainViewController.h */,
+				C5E85A081CC3818A00FC335F /* MainViewController.m */,
+				C5E85A371CC3982B00FC335F /* Controllers */,
 				C5E85A0A1CC3818A00FC335F /* Main.storyboard */,
 				C5E85A101CC3818A00FC335F /* Assets.xcassets */,
 				C5E85A121CC3818A00FC335F /* LaunchScreen.storyboard */,
@@ -141,6 +146,15 @@
 				C5E85A2B1CC3818B00FC335F /* Info.plist */,
 			);
 			path = FELayerAnimationUITests;
+			sourceTree = "<group>";
+		};
+		C5E85A371CC3982B00FC335F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5E85A381CC3985800FC335F /* GradientViewController.h */,
+				C5E85A391CC3985800FC335F /* GradientViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,10 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5E85A091CC3818A00FC335F /* ViewController.m in Sources */,
+				C5E85A091CC3818A00FC335F /* MainViewController.m in Sources */,
 				C5E85A0F1CC3818A00FC335F /* FELayerAnimation.xcdatamodeld in Sources */,
 				C5E85A061CC3818A00FC335F /* AppDelegate.m in Sources */,
 				C5E85A031CC3818A00FC335F /* main.m in Sources */,
+				C5E85A3A1CC3985800FC335F /* GradientViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E85A3B1CC3985800FC335F /* GradientViewController.m in Sources */,
 				C5E85A1F1CC3818B00FC335F /* FELayerAnimationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
