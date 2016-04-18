@@ -19,23 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-//    self.bgView=[[UIView alloc]initWithFrame:CGRectMake(40, 60, 120, 80)];
-//    self.bgView.backgroundColor=[UIColor redColor];
-//    [self.view addSubview:self.bgView];
-//    
-//       NSLog(@"frame:%@--position : %@,anchorPoint :%@",NSStringFromCGRect(self.bgView.frame),NSStringFromCGPoint(self.bgView.layer.position),NSStringFromCGPoint(self.bgView.layer.anchorPoint));
-//    self.bgView.layer.anchorPoint=CGPointMake(0, 0);
-//    NSLog(@"frame:%@--position : %@,anchorPoint :%@",NSStringFromCGRect(self.bgView.frame),NSStringFromCGPoint(self.bgView.layer.position),NSStringFromCGPoint(self.bgView.layer.anchorPoint));
-//    
-//    self.bgView.layer.anchorPoint=CGPointMake(1, 1);
-//    NSLog(@"frame:%@--position : %@,anchorPoint :%@",NSStringFromCGRect(self.bgView.frame),NSStringFromCGPoint(self.bgView.layer.position),NSStringFromCGPoint(self.bgView.layer.anchorPoint));
-//    
-//    
-//    UIView *view=[[UIView alloc]initWithFrame:CGRectMake(40, 60, 120, 80)];
-//    view.backgroundColor=[UIColor greenColor];
-//    [self.view addSubview:view];
-    
+    self.navigationItem.title=@"FELayerAnimation";
 }
 
 - (void)didReceiveMemoryWarning {
