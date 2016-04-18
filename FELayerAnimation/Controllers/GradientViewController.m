@@ -58,6 +58,7 @@
 #pragma mark - setup
 
 -(void)setupGradient{
+    //FlyElephant
     CAGradientLayer *gradientLayer = [CAGradientLayer layer];
     gradientLayer.frame    =CGRectMake(80, 80, 200, 80);
     gradientLayer.colors = @[(__bridge id)[UIColor redColor].CGColor,
@@ -70,6 +71,7 @@
     gradientLayer.endPoint   = CGPointMake(0, 1);
     [self.view.layer addSublayer:gradientLayer];
     
+    //FlyElephant
     CAGradientLayer *gradientLayer1 = [CAGradientLayer layer];
     gradientLayer1.frame    =CGRectMake(80, 170, 200, 40);
     gradientLayer1.colors = @[(__bridge id)[UIColor redColor].CGColor,(__bridge id)[UIColor purpleColor].CGColor];
