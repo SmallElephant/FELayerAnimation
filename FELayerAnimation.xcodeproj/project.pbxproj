@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8C8FFAE1CC4E9C500E19837 /* GradientDetialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C8FFAD1CC4E9C500E19837 /* GradientDetialViewController.m */; };
+		C5E85A031CC3818A00FC335F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A021CC3818A00FC335F /* main.m */; };
+		C5E85A061CC3818A00FC335F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A051CC3818A00FC335F /* AppDelegate.m */; };
+		C5E85A091CC3818A00FC335F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A081CC3818A00FC335F /* MainViewController.m */; };
+		C5E85A0C1CC3818A00FC335F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E85A0A1CC3818A00FC335F /* Main.storyboard */; };
+		C5E85A0F1CC3818A00FC335F /* FELayerAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A0D1CC3818A00FC335F /* FELayerAnimation.xcdatamodeld */; };
+		C5E85A111CC3818A00FC335F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5E85A101CC3818A00FC335F /* Assets.xcassets */; };
+		C5E85A141CC3818A00FC335F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5E85A121CC3818A00FC335F /* LaunchScreen.storyboard */; };
+		C5E85A1F1CC3818B00FC335F /* FELayerAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A1E1CC3818B00FC335F /* FELayerAnimationTests.m */; };
+		C5E85A2A1CC3818B00FC335F /* FELayerAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A291CC3818B00FC335F /* FELayerAnimationUITests.m */; };
+		C5E85A3A1CC3985800FC335F /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A391CC3985800FC335F /* GradientViewController.m */; };
+		C5E85A3B1CC3985800FC335F /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E85A391CC3985800FC335F /* GradientViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5E85A1B1CC3818B00FC335F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5E859F61CC3818A00FC335F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5E859FD1CC3818A00FC335F;
+			remoteInfo = FELayerAnimation;
+		};
+		C5E85A261CC3818B00FC335F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5E859F61CC3818A00FC335F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5E859FD1CC3818A00FC335F;
+			remoteInfo = FELayerAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8C8FFAC1CC4E9C500E19837 /* GradientDetialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientDetialViewController.h; sourceTree = "<group>"; };
+		A8C8FFAD1CC4E9C500E19837 /* GradientDetialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientDetialViewController.m; sourceTree = "<group>"; };
+		C5E859FE1CC3818A00FC335F /* FELayerAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FELayerAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E85A021CC3818A00FC335F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5E85A041CC3818A00FC335F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5E85A051CC3818A00FC335F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5E85A071CC3818A00FC335F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C5E85A081CC3818A00FC335F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C5E85A0B1CC3818A00FC335F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5E85A0E1CC3818A00FC335F /* FELayerAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FELayerAnimation.xcdatamodel; sourceTree = "<group>"; };
+		C5E85A101CC3818A00FC335F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5E85A131CC3818A00FC335F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5E85A151CC3818A00FC335F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E85A1A1CC3818B00FC335F /* FELayerAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FELayerAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E85A1E1CC3818B00FC335F /* FELayerAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FELayerAnimationTests.m; sourceTree = "<group>"; };
+		C5E85A201CC3818B00FC335F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E85A251CC3818B00FC335F /* FELayerAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FELayerAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E85A291CC3818B00FC335F /* FELayerAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FELayerAnimationUITests.m; sourceTree = "<group>"; };
+		C5E85A2B1CC3818B00FC335F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E85A381CC3985800FC335F /* GradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
+		C5E85A391CC3985800FC335F /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5E859FB1CC3818A00FC335F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E85A171CC3818B00FC335F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E85A221CC3818B00FC335F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5E859F51CC3818A00FC335F = {
+			isa = PBXGroup;
+			children = (
+				C5E85A001CC3818A00FC335F /* FELayerAnimation */,
+				C5E85A1D1CC3818B00FC335F /* FELayerAnimationTests */,
+				C5E85A281CC3818B00FC335F /* FELayerAnimationUITests */,
+				C5E859FF1CC3818A00FC335F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5E859FF1CC3818A00FC335F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5E859FE1CC3818A00FC335F /* FELayerAnimation.app */,
+				C5E85A1A1CC3818B00FC335F /* FELayerAnimationTests.xctest */,
+				C5E85A251CC3818B00FC335F /* FELayerAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5E85A001CC3818A00FC335F /* FELayerAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C5E85A041CC3818A00FC335F /* AppDelegate.h */,
+				C5E85A051CC3818A00FC335F /* AppDelegate.m */,
+				C5E85A071CC3818A00FC335F /* MainViewController.h */,
+				C5E85A081CC3818A00FC335F /* MainViewController.m */,
+				C5E85A371CC3982B00FC335F /* Controllers */,
+				C5E85A0A1CC3818A00FC335F /* Main.storyboard */,
+				C5E85A101CC3818A00FC335F /* Assets.xcassets */,
+				C5E85A121CC3818A00FC335F /* LaunchScreen.storyboard */,
+				C5E85A151CC3818A00FC335F /* Info.plist */,
+				C5E85A0D1CC3818A00FC335F /* FELayerAnimation.xcdatamodeld */,
+				C5E85A011CC3818A00FC335F /* Supporting Files */,
+			);
+			path = FELayerAnimation;
+			sourceTree = "<group>";
+		};
+		C5E85A011CC3818A00FC335F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5E85A021CC3818A00FC335F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5E85A1D1CC3818B00FC335F /* FELayerAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5E85A1E1CC3818B00FC335F /* FELayerAnimationTests.m */,
+				C5E85A201CC3818B00FC335F /* Info.plist */,
+			);
+			path = FELayerAnimationTests;
+			sourceTree = "<group>";
+		};
+		C5E85A281CC3818B00FC335F /* FELayerAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5E85A291CC3818B00FC335F /* FELayerAnimationUITests.m */,
+				C5E85A2B1CC3818B00FC335F /* Info.plist */,
+			);
+			path = FELayerAnimationUITests;
+			sourceTree = "<group>";
+		};
+		C5E85A371CC3982B00FC335F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5E85A381CC3985800FC335F /* GradientViewController.h */,
+				C5E85A391CC3985800FC335F /* GradientViewController.m */,
+				A8C8FFAC1CC4E9C500E19837 /* GradientDetialViewController.h */,
+				A8C8FFAD1CC4E9C500E19837 /* GradientDetialViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5E859FD1CC3818A00FC335F /* FELayerAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5E85A2E1CC3818B00FC335F /* Build configuration list for PBXNativeTarget "FELayerAnimation" */;
+			buildPhases = (
+				C5E859FA1CC3818A00FC335F /* Sources */,
+				C5E859FB1CC3818A00FC335F /* Frameworks */,
+				C5E859FC1CC3818A00FC335F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FELayerAnimation;
+			productName = FELayerAnimation;
+			productReference = C5E859FE1CC3818A00FC335F /* FELayerAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5E85A191CC3818B00FC335F /* FELayerAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5E85A311CC3818B00FC335F /* Build configuration list for PBXNativeTarget "FELayerAnimationTests" */;
+			buildPhases = (
+				C5E85A161CC3818B00FC335F /* Sources */,
+				C5E85A171CC3818B00FC335F /* Frameworks */,
+				C5E85A181CC3818B00FC335F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5E85A1C1CC3818B00FC335F /* PBXTargetDependency */,
+			);
+			name = FELayerAnimationTests;
+			productName = FELayerAnimationTests;
+			productReference = C5E85A1A1CC3818B00FC335F /* FELayerAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5E85A241CC3818B00FC335F /* FELayerAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5E85A341CC3818B00FC335F /* Build configuration list for PBXNativeTarget "FELayerAnimationUITests" */;
+			buildPhases = (
+				C5E85A211CC3818B00FC335F /* Sources */,
+				C5E85A221CC3818B00FC335F /* Frameworks */,
+				C5E85A231CC3818B00FC335F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5E85A271CC3818B00FC335F /* PBXTargetDependency */,
+			);
+			name = FELayerAnimationUITests;
+			productName = FELayerAnimationUITests;
+			productReference = C5E85A251CC3818B00FC335F /* FELayerAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5E859F61CC3818A00FC335F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FlyElephant;
+				TargetAttributes = {
+					C5E859FD1CC3818A00FC335F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C5E85A191CC3818B00FC335F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5E859FD1CC3818A00FC335F;
+					};
+					C5E85A241CC3818B00FC335F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5E859FD1CC3818A00FC335F;
+					};
+				};
+			};
+			buildConfigurationList = C5E859F91CC3818A00FC335F /* Build configuration list for PBXProject "FELayerAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5E859F51CC3818A00FC335F;
+			productRefGroup = C5E859FF1CC3818A00FC335F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5E859FD1CC3818A00FC335F /* FELayerAnimation */,
+				C5E85A191CC3818B00FC335F /* FELayerAnimationTests */,
+				C5E85A241CC3818B00FC335F /* FELayerAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5E859FC1CC3818A00FC335F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E85A141CC3818A00FC335F /* LaunchScreen.storyboard in Resources */,
+				C5E85A111CC3818A00FC335F /* Assets.xcassets in Resources */,
+				C5E85A0C1CC3818A00FC335F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E85A181CC3818B00FC335F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E85A231CC3818B00FC335F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5E859FA1CC3818A00FC335F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E85A091CC3818A00FC335F /* MainViewController.m in Sources */,
+				C5E85A0F1CC3818A00FC335F /* FELayerAnimation.xcdatamodeld in Sources */,
+				C5E85A061CC3818A00FC335F /* AppDelegate.m in Sources */,
+				A8C8FFAE1CC4E9C500E19837 /* GradientDetialViewController.m in Sources */,
+				C5E85A031CC3818A00FC335F /* main.m in Sources */,
+				C5E85A3A1CC3985800FC335F /* GradientViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E85A161CC3818B00FC335F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E85A3B1CC3985800FC335F /* GradientViewController.m in Sources */,
+				C5E85A1F1CC3818B00FC335F /* FELayerAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E85A211CC3818B00FC335F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E85A2A1CC3818B00FC335F /* FELayerAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5E85A1C1CC3818B00FC335F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5E859FD1CC3818A00FC335F /* FELayerAnimation */;
+			targetProxy = C5E85A1B1CC3818B00FC335F /* PBXContainerItemProxy */;
+		};
+		C5E85A271CC3818B00FC335F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5E859FD1CC3818A00FC335F /* FELayerAnimation */;
+			targetProxy = C5E85A261CC3818B00FC335F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5E85A0A1CC3818A00FC335F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5E85A0B1CC3818A00FC335F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5E85A121CC3818A00FC335F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5E85A131CC3818A00FC335F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5E85A2C1CC3818B00FC335F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5E85A2D1CC3818B00FC335F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5E85A2F1CC3818B00FC335F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FELayerAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FELayerAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5E85A301CC3818B00FC335F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FELayerAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FELayerAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5E85A321CC3818B00FC335F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FELayerAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FELayerAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FELayerAnimation.app/FELayerAnimation";
+			};
+			name = Debug;
+		};
+		C5E85A331CC3818B00FC335F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FELayerAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FELayerAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FELayerAnimation.app/FELayerAnimation";
+			};
+			name = Release;
+		};
+		C5E85A351CC3818B00FC335F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FELayerAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FELayerAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FELayerAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5E85A361CC3818B00FC335F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FELayerAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FELayerAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FELayerAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5E859F91CC3818A00FC335F /* Build configuration list for PBXProject "FELayerAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E85A2C1CC3818B00FC335F /* Debug */,
+				C5E85A2D1CC3818B00FC335F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5E85A2E1CC3818B00FC335F /* Build configuration list for PBXNativeTarget "FELayerAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E85A2F1CC3818B00FC335F /* Debug */,
+				C5E85A301CC3818B00FC335F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5E85A311CC3818B00FC335F /* Build configuration list for PBXNativeTarget "FELayerAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E85A321CC3818B00FC335F /* Debug */,
+				C5E85A331CC3818B00FC335F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5E85A341CC3818B00FC335F /* Build configuration list for PBXNativeTarget "FELayerAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E85A351CC3818B00FC335F /* Debug */,
+				C5E85A361CC3818B00FC335F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C5E85A0D1CC3818A00FC335F /* FELayerAnimation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5E85A0E1CC3818A00FC335F /* FELayerAnimation.xcdatamodel */,
+			);
+			currentVersion = C5E85A0E1CC3818A00FC335F /* FELayerAnimation.xcdatamodel */;
+			path = FELayerAnimation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C5E859F61CC3818A00FC335F /* Project object */;
+}
