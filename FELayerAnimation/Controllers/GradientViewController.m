@@ -119,10 +119,10 @@
     self.progressMaskLayer.frame=CGRectMake(0, 0, 0, 2);
 
     self.timer=[NSTimer scheduledTimerWithTimeInterval:0.3 target:self selector:@selector(updateProgress) userInfo:nil repeats:YES];
-    self.timer.fireDate=[[NSDate date] dateByAddingTimeInterval:2];
+    self.timer.fireDate=[[NSDate date] dateByAddingTimeInterval:1];
     
     self.gradientTimer=[NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(progressGradient) userInfo:nil repeats:YES];
-    self.gradientTimer.fireDate=[[NSDate date] dateByAddingTimeInterval:2];
+    self.gradientTimer.fireDate=[[NSDate date] dateByAddingTimeInterval:1];
 }
 
 -(void)setupProgress:(CAGradientLayer *)layer{
